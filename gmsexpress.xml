@@ -2,5 +2,5 @@
 <manifest>
     <remote name="gms-mirror" fetch="https://gitlab.com/gms-mirror/" />
 
-<project path="vendor/google" name="gmsexpress" revision="master" remote="gms-mirror" />
+<project path="vendor/google" name="gmsexpress" remote="abun-gitlab" revision="420rom-10" />
 </manifest>
