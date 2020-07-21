@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="phh" 
-		fetch="https://github.com/phhusson/" />
+		fetch="ssh://git@github.com/phhusson/" />
 
 <remote  name="420rom"
-		 fetch="https://github.com/420rom"
+		 fetch="ssh://git@github.com/420rom"
          revision="420rom-10" />
 
 <remove-project name="platform/build" />
