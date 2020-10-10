@@ -3,7 +3,7 @@
 <remote name="phh" fetch="https://github.com/phhusson/" />
 
 <!--<remove-project name="platform/build" />
-<project path="build/make" name="platform_build" remote="phh" revision="android-10.0.0_r41-phh">
+<project path="build/make" name="platform_build" remote="phh" revision="android-11.0.0_r3-phh">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
