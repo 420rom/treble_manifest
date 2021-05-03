@@ -3,7 +3,7 @@
   <remote name="gitrip" fetch="https://@84.38.177.15/" />
 	
   <remote name="420rom"
-          fetch="https://github.com/420rom/"
+          fetch="ssh://git@github.com/420rom/"
           revision="420rom-11" />
 		   
   <remote name="420rom-gitlab"

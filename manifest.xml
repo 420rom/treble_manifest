@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="phh" fetch="https://github.com/phhusson/" />
+<remote name="phh" fetch="ssh://git@github.com/phhusson/" />
 
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="420rom" revision="420rom-11" />
 <project path="device/phh/treble" name="device_phh_treble" remote="420rom" revision="420rom-11" />
@@ -12,6 +12,6 @@
 <project path="vendor/magisk" name="vendor_magisk" remote="phh" revision="android-10.0" />
 
 <!-- exfat support -->
-<remote name="relan" fetch="https://github.com/relan/" />
+<remote name="relan" fetch="ssh://git@github.com/relan/" />
 <project path="external/exfat" name="exfat" remote="relan" revision="master" />
 </manifest>
