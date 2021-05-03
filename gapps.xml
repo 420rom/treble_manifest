@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="gitrip" fetch="ssh://git@84.38.177.15/" />
+  <remote name="gitrip" fetch="https://@84.38.177.15/" />
 	
-	<remote name="420rom"
-	  fetch="ssh://git@github.com/420rom"
+  <remote name="420rom"
+          fetch="https://github.com/420rom/"
           revision="420rom-11" />
 		   
-        <remote name="420rom-gitlab"
-          fetch="ssh://git@gitlab.com/420rom"
+  <remote name="420rom-gitlab"
+          fetch="https://gitlab.com/420rom/"
           revision="420rom-11" />
-
-    <project path="vendor/partner_gms" name="partner_gms" remote="420rom-gitlab" />
-
+          
+  <project path="vendor/partner_gms" name="partner_gms" remote="420rom-gitlab" />
 
 </manifest>
